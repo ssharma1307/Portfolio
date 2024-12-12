@@ -29,7 +29,7 @@ export default function NavBar() {
     <Navbar expand="lg" className={scrolled? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src="../Images/logo.png" alt='Logo'/>
+            <img src="../assets/img/logo.png" alt='Logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className='navbar-toggler-icon'></span>
